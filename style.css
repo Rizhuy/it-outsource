@@ -376,6 +376,31 @@ h2 {
   line-height: 1.75;
 }
 
+.svc-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.svc-list li {
+  font-size: 14px;
+  color: var(--text-muted);
+  padding-left: 18px;
+  position: relative;
+  line-height: 1.5;
+}
+
+.svc-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--gold);
+}
+
 /* ===== WHY ===== */
 .why-grid {
   display: grid;
