@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IT-аутсорсинг | ИП Романюк О.Е.</title>
+  <meta name="description" content="Полное сопровождение IT-инфраструктуры. Сети, серверы, видеонаблюдение, СКУД, мониторинг, 1С, ремонт ПК. Бесплатный аудит." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header__inner">
+      <div class="logo">
+        <span class="logo__icon">⚡</span>
+        <span class="logo__text">IT<span class="accent">Outsource</span></span>
+      </div>
+      <nav class="nav">
+        <a href="#services">Услуги</a>
+        <a href="#why">О нас</a>
+        <a href="#pricing">Цены</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+      <a href="tel:+79043926831" class="btn btn--sm header__cta">Позвонить</a>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#services" class="mobile-nav__link">Услуги</a>
+      <a href="#why" class="mobile-nav__link">О нас</a>
+      <a href="#pricing" class="mobile-nav__link">Цены</a>
+      <a href="#contact" class="mobile-nav__link">Контакты</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <div class="hero__badge">IT-аутсорсинг 24/7</div>
+        <h1 class="hero__title">Ваша команда<br /><span class="accent">IT-специалистов</span></h1>
+        <p class="hero__sub">Полное сопровождение IT-инфраструктуры для бизнеса любого масштаба — от малого офиса до крупного завода. Быстро, надёжно, недорого.</p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary">Бесплатный аудит</a>
+          <a href="#services" class="btn btn--outline">Наши услуги</a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__num">3000+</span>
+            <span class="stat__label">устройств под управлением</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">24/7</span>
+            <span class="stat__label">стабильная работа</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">900₽</span>
+            <span class="stat__label">от / мес за ПК</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__card hero__card--1">
+          <span class="card-icon">🖥️</span>
+          <span>Серверы и сети</span>
+        </div>
+        <div class="hero__card hero__card--2">
+          <span class="card-icon">📡</span>
+          <span>Мониторинг 24/7</span>
+        </div>
+        <div class="hero__card hero__card--3">
+          <span class="card-icon">🔒</span>
+          <span>Безопасность</span>
+        </div>
+        <div class="hero__card hero__card--4">
+          <span class="card-icon">🤖</span>
+          <span>Внедрение ИИ</span>
+        </div>
+        <div class="hero__circle"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section__head">
+        <span class="section__tag">Компетенции</span>
+        <h2 class="section__title">Что мы делаем</h2>
+        <p class="section__sub">Полный спектр IT-услуг под ключ — от прокладки кабеля до внедрения искусственного интеллекта</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="service-card__icon">🌐</div>
+          <h3>Сетевые решения</h3>
+          <ul>
+            <li>Монтаж ВОЛС, ЛВС, СКС</li>
+            <li>Интернет 24/7 (мульти-WAN)</li>
+            <li>VLAN, сегментация сетей</li>
+            <li>IP-телефония (FreePBX и др.)</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">🔐</div>
+          <h3>Безопасность</h3>
+          <ul>
+            <li>Видеонаблюдение (UniFi, Hikvision)</li>
+            <li>СКУД — все популярные системы</li>
+            <li>Защита периметра сети</li>
+            <li>Разграничение доступа</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">📊</div>
+          <h3>Мониторинг и администрирование</h3>
+          <ul>
+            <li>Grafana, Prometheus, Zabbix, GLPI</li>
+            <li>Оповещения в мессенджеры</li>
+            <li>1С серверы — поддержка и сопровождение</li>
+            <li>Администрирование любых серверов</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">⛏️</div>
+          <h3>Майнинг-фермы</h3>
+          <ul>
+            <li>Опыт работы с 3000+ устройств</li>
+            <li>Бесперебойная работа 24/7</li>
+            <li>Мониторинг и автоматизация</li>
+            <li>Аппаратный ремонт</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">🛠️</div>
+          <h3>Специализированные услуги</h3>
+          <ul>
+            <li>Аппаратный ремонт ПК/ноутбуков</li>
+            <li>ЭДО, ЭЦП, электронные площадки</li>
+            <li>Вывод на Ozon, Wildberries, Яндекс Маркет</li>
+            <li>Закупка оборудования под задачи</li>
+          </ul>
+        </div>
+
+        <div class="service-card service-card--accent">
+          <div class="service-card__icon">🤖</div>
+          <h3>Внедрение ИИ</h3>
+          <ul>
+            <li>Автоматизация рабочих мест</li>
+            <li>Обучение персонала</li>
+            <li>Быстрая интеграция систем</li>
+            <li>Современный подход к IT</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="section section--dark" id="why">
+    <div class="container">
+      <div class="section__head">
+        <span class="section__tag">Почему мы</span>
+        <h2 class="section__title">Наши преимущества</h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-card__icon">👁️</div>
+          <h3>Полная прозрачность</h3>
+          <p>Вы всегда знаете, что происходит в вашей инфраструктуре. Вся информация доступна в реальном времени, включая оповещения в мессенджерах.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-card__icon">⚡</div>
+          <h3>Готовы к любым задачам</h3>
+          <p>От ремонта ноутбука до сложных интеграций корпоративного уровня. Работаем с крупными предприятиями и малым бизнесом.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-card__icon">📱</div>
+          <h3>Всегда на связи</h3>
+          <p>Команда без вредных привычек — всегда на связи, готовы приехать в любой момент для решения любой проблемы.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-card__icon">💡</div>
+          <h3>Недорогие решения</h3>
+          <p>Благодаря накопленному опыту у нас в арсенале весьма недорогие IT-инструменты. Качественная IT-система — это не обязательно дорого.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-card__icon">🏭</div>
+          <h3>Опыт в разных отраслях</h3>
+          <p>Технопарки, предприятия, заводы, ритейл (малые и крупные сети), средние и малые организации.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-card__icon">🤝</div>
+          <h3>Рекомендации</h3>
+          <p>Можем предоставить контакты организаций, которые нас рекомендуют. Репутация — наш главный актив.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="section" id="pricing">
+    <div class="container">
+      <div class="section__head">
+        <span class="section__tag">Стоимость</span>
+        <h2 class="section__title">Прозрачные цены</h2>
+        <p class="section__sub">Стандартные расценки — отправная точка. В каждом случае индивидуальный гибкий подход.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <div class="pricing-card__icon">🖥️</div>
+          <h3>Рабочая станция</h3>
+          <div class="pricing-card__price">900 <span>₽/мес</span></div>
+          <p>Обслуживание одного ПК: мониторинг, поддержка, обновления, реакция на инциденты.</p>
+          <a href="#contact" class="btn btn--outline btn--full">Обсудить</a>
+        </div>
+        <div class="pricing-card pricing-card--featured">
+          <div class="pricing-card__badge">Популярно</div>
+          <div class="pricing-card__icon">🗄️</div>
+          <h3>Сервер</h3>
+          <div class="pricing-card__price">1500 <span>₽/мес</span></div>
+          <p>Полное администрирование сервера: мониторинг 24/7, резервное копирование, обновления, поддержка.</p>
+          <a href="#contact" class="btn btn--primary btn--full">Обсудить</a>
+        </div>
+        <div class="pricing-card">
+          <div class="pricing-card__icon">🏢</div>
+          <h3>Индивидуально</h3>
+          <div class="pricing-card__price">По запросу</div>
+          <p>Комплексное обслуживание инфраструктуры. Цена зависит от масштаба и задач вашего бизнеса.</p>
+          <a href="#contact" class="btn btn--outline btn--full">Получить расчёт</a>
+        </div>
+      </div>
+      <p class="pricing-note">💡 Узнайте, сколько это будет стоить для вас — будете приятно удивлены! Свяжитесь с нами для <strong>бесплатного аудита</strong>.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section--contact" id="contact">
+    <div class="container">
+      <div class="section__head">
+        <span class="section__tag">Связаться</span>
+        <h2 class="section__title">Давайте познакомимся</h2>
+        <p class="section__sub">Консультация ничего не стоит. Мы будем очень рады помочь!</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-person">
+            <div class="contact-person__avatar">О</div>
+            <div>
+              <div class="contact-person__name">Олег Р.</div>
+              <a href="tel:+79043926831" class="contact-person__phone">+7 (904) 392-68-31</a>
+            </div>
+          </div>
+          <div class="contact-person">
+            <div class="contact-person__avatar">Д</div>
+            <div>
+              <div class="contact-person__name">Дмитрий Н.</div>
+              <a href="tel:+79991216445" class="contact-person__phone">+7 (999) 121-64-45</a>
+            </div>
+          </div>
+          <div class="contact-extra">
+            <div class="contact-extra__item">
+              <span>🏢</span>
+              <span>ИП Романюк О.Е.</span>
+            </div>
+            <div class="contact-extra__item">
+              <span>🕐</span>
+              <span>Работаем 24/7 — звоните в любое время</span>
+            </div>
+            <div class="contact-extra__item">
+              <span>🎁</span>
+              <span>Бесплатный аудит IT-инфраструктуры</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-cta">
+          <h3>Есть задача? Поручите это нам!</h3>
+          <p>Расскажите о вашей инфраструктуре — мы предложим оптимальное решение и честную цену.</p>
+          <div class="contact-cta__btns">
+            <a href="tel:+79043926831" class="btn btn--primary btn--lg">
+              <span>📞</span> Позвонить Олегу
+            </a>
+            <a href="tel:+79991216445" class="btn btn--outline btn--lg">
+              <span>📞</span> Позвонить Дмитрию
+            </a>
+          </div>
+          <p class="contact-cta__note">С заботой о вас и вашем бизнесе ❤️</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="logo">
+        <span class="logo__icon">⚡</span>
+        <span class="logo__text">IT<span class="accent">Outsource</span></span>
+      </div>
+      <p class="footer__copy">© 2025 ИП Романюк О.Е. Все права защищены.</p>
+      <div class="footer__phones">
+        <a href="tel:+79043926831">+7 (904) 392-68-31</a>
+        <a href="tel:+79991216445">+7 (999) 121-64-45</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
